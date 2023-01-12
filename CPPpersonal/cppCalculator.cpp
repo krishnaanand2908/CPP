@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int main(){
     int a, b;
@@ -10,5 +11,6 @@ int main(){
     cout<<"Difference is: "<<a-b<<endl;
     cout<<"Product is: "<<a*b<<endl;
     cout<<"Quotient is: "<<a/b<<endl;
+    getch();
     return 0;
 }
